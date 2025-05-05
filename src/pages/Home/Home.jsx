@@ -1,5 +1,6 @@
 import './Home.css';
 import { Header } from "../../components/header/header";
+import { Cards } from '../../components/cards/Cards';
 import { Footer } from "../../components/footer/Footer";
 
 export function Home() {
@@ -24,6 +25,7 @@ export function Home() {
                     </div>
                 </div>
             </div>
+            <Cards />
             <Footer />
         </>
     )
