@@ -11,6 +11,7 @@ export function Home() {
                 <div className="content">
                     <video controls class='trailer'>
                         <source src='video/BATMAN_Trailer_3_Oficial_Dublado.mp4' type='video/mp4' />
+                        Seu navegador não possui suporte para vídeos!
                     </video>
                     <div className="sinopse">
                         <p className='description'>
