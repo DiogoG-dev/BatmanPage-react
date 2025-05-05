@@ -1,0 +1,102 @@
+/* Banner do Batman*/
+.banner {
+    background-image: url('../../public/imgs/banner/bannerBatman.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    margin-top: 90px;
+}
+
+/* Conteiner de Conteúdo */
+.trailer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--bg-color-01);
+    padding-top: 15px;
+}
+
+/* Conteúdo */
+.content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+/* Trailer do Filme The Batman*/
+.trailer {
+    width: 50%;
+    z-index: 1;
+}
+
+/* Sinopse */
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 50%;
+}
+
+/* Texto da Sinopse */
+.description {
+    font-size: 19px;
+    width: 100%;
+}
+
+/* Botão de Comprar Ingresso */
+.buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: var(--bg-color-03);
+    color: var(--color-02);
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 18px;
+    border: none;
+}
+
+.buy-button:hover {
+    background-color: var(--bg-color-02);
+    color: var(--color-01);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .banner {
+        background-position: 40%;
+        height: 205px;
+    }
+
+    .trailer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .trailer {
+        width: 95%;
+    }
+
+    .sinopse {
+        width: 95%;
+        align-items: center;
+    }
+
+    .buy-button {
+        margin-top: 30px;
+    }
+}
