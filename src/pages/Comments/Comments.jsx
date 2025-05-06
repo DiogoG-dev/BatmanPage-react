@@ -20,7 +20,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">04/04/2022</div>
+                                <div>04/04/2022</div>
                                 <div className="likes">❤️ 47</div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">12/05/2022</div>
+                                <div>12/05/2022</div>
                                 <div className="likes">❤️ 83</div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">23/06/2022</div>
+                                <div>23/06/2022</div>
                                 <div className="likes">❤️ 12</div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">15/07/2022</div>
+                                <div>15/07/2022</div>
                                 <div className="likes">❤️ 56</div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">30/08/2022</div>
+                                <div>30/08/2022</div>
                                 <div className="likes">❤️ 29</div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">22/09/2022</div>
+                                <div>22/09/2022</div>
                                 <div className="likes">❤️ 71</div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">05/11/2022</div>
+                                <div>05/11/2022</div>
                                 <div className="likes">❤️ 64</div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">18/12/2022</div>
+                                <div>18/12/2022</div>
                                 <div className="likes">❤️ 17</div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">09/02/2023</div>
+                                <div>09/02/2023</div>
                                 <div className="likes">❤️ 77</div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ export function Comments() {
                                 </div>
                             </div>
                             <div className="date-likes">
-                                <div className="date">09/02/2023</div>
+                                <div>09/02/2023</div>
                                 <div className="likes">❤️ 39</div>
                             </div>
                         </div>
