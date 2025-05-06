@@ -1,0 +1,186 @@
+/* Container de Contatos */
+.contacts-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 100px 0 50px 0;
+    background-color: var(--bg-color-01);
+}
+
+/* Conteúdo Principal */
+.content {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Contatos */
+.contacts {
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+/* Estilização dos Links Externos de Contatos */
+.links {
+    background-color: var(--bg-color-02);
+    color: var(--color-01);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+    height: 10vw;
+    font-size: 14px;
+}
+.links:hover {
+    background-color: var(--bg-color-03);
+
+    i {
+        background-color: var(--bg-color-03);
+        color: var(--color-02);
+    }
+
+    h3 {
+        color: var(--color-02);
+    }
+}
+
+/* Estilizando o Icone */
+i {
+    background-color: var(--bg-color-02);
+    color: var(--color-03);
+    font-size: 3.5rem;
+}
+
+/* Estilizando o Nome do Link */
+.links h3 {
+    color: var(--color-01);
+}
+
+/* Formulário para Mensagem */
+.send-message {
+    background-color: var(--bg-color-03);
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+/* Título do Formulário */
+.send-message h1 {
+    background-color: var(--bg-color-03);
+    color: var(--color-02);
+}
+
+/* Informações Pessoais */
+input {
+    font-family: 'Kdam Thmor Pro';
+    background-color: var(--bg-color-02);
+    color: var(--color-01);
+    width: 70%;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: none;
+}
+
+/* Texto */
+textarea {
+    font-family: 'Kdam Thmor Pro';
+    background-color: var(--bg-color-02);
+    color: var(--bg-color-01);
+    width: 70%;
+    font-size: 14px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    resize: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Botão de Enviar Mensagem */
+button {
+    font-family: 'Kdam Thmor Pro';
+    background-color: var(--bg-color-02);
+    color: var(--color-01);
+    border: none;
+    font-size: 14px;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+}
+button:hover {
+    background-color: var(--bg-color-01);
+    color: var(--bg-color-02);
+    transition: 0.5s;
+}
+
+/* Responsividade */
+@media(max-width: 768px) {
+    .contacts-container {
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .content {        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    .contacts {
+        width: 65%;
+    }
+
+    .links {        
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    .send-message {
+        width: 80vw;
+        height: 100vw;
+        margin-top: 30px;
+    }
+    
+    input {
+        font-size: 12px;
+    }
+    
+    textarea {
+        font-size: 12px;
+    }
+    
+    button {
+        font-size: 12px;
+    }
+    
+    button:hover {
+        background-color: var(--bg-color-01);
+        color: var(--bg-color-02);
+        transition: 0.5s;
+    }
+}
