@@ -1,0 +1,93 @@
+/* Container dos Cards */
+.photos-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 140px 0 50px 0;
+    background-color: var(--bg-color-01);
+}
+
+/* Cards */
+.photos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+/* Estilização de cada Card*/
+.photo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 20px 10px;
+    font-size: 17px;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+/* Imagens de Cada Card */
+.photo-1 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BOTBjNGE5ZmYtZTVjZS00MWZjLWIyMzMtZDMwODQ4OGI2ZGE2XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+}
+
+.photo-2 {
+    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/21/10/15/18/09/5653084.jpg');
+}
+
+.photo-3 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMmFhNzBhYjItZjU3Ni00ZTY1LTg5ZGEtNGNiMmEyMzNjY2E0XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+}
+
+.photo-4 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BODMyNDJhM2QtMDU2MS00NjA5LThiNDYtNWVkNjQ4NDZiNTQyXkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+}
+
+.photo-5 {
+    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5093662.jpg');
+}
+
+.photo-6 {
+    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1918976.jpg');
+}
+
+.photo-7 {
+    background-image: url('https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1839411.jpg');
+}
+
+.photo-8 {
+    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1947058.jpg');
+}
+
+.photo-9 {
+    background-image: url('https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1933017.jpg');
+}
+
+.photo-10 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMGRiODdkNjQtZDZiYy00ZTVhLThlZTEtNjEyNGRkZTRjNThkXkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+}
+
+.photo-11 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BY2QzYmQ2M2UtYWI3OC00ZjE0LWI4MWUtZmZiN2E2ODE4N2I2XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+}
+
+.photo-12 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMjc5OTBhNGUtNTQ4NS00YjI5LTk2MDMtMTM3NjkxNGI4YzQ2XkEyXkFqcGc@._V1_QL75_UX808_.jpg');
+}
+
+/* Responsividade */
+@media(max-width: 768px) {
+    .photos-content {
+        width: 75%;
+        grid-template-columns: 1fr
+    }
+}
