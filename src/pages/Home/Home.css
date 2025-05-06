@@ -1,6 +1,6 @@
 /* Banner do Batman*/
 .banner {
-    background-image: url('../../public/imgs/banner/bannerBatman.jpg');
+    background-image: url('imgs/banner/bannerBatman.jpg');
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
@@ -107,15 +107,15 @@
 
 /* Imagens de Fundo dos Autores */
 .banner-1 {
-    background-image: url('../../../public/imgs/actors/Batman.png');
+    background-image: url('imgs/mainActors/Batman.png');
 }
 
 .banner-2 {
-    background-image: url('../../../public/imgs/actors/ZoeKravitz.jpg');
+    background-image: url('imgs/mainActors/ZoeKravitz.jpg');
 }
 
 .banner-3 {
-    background-image: url('../../../public/imgs/actors/Charada.png');
+    background-image: url('imgs/mainActors/Charada.png');
 }
 
 /* Responsividade */
