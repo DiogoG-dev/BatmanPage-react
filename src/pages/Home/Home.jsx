@@ -1,6 +1,5 @@
 import './Home.css';
 import { Header } from "../../components/header/header";
-import { Cards } from '../../components/cards/Cards';
 import { Footer } from "../../components/footer/Footer";
 
 export function Home() {
@@ -25,7 +24,13 @@ export function Home() {
                     </div>
                 </div>
             </div>
-            <Cards />
+            <div className='actor-cards-container'>
+                <div className="cards-content">
+                    <div className="card banner-1">Robert Pattison - Batman</div>
+                    <div className="card banner-2">Zoe Kravitz - Mulher Gato</div>
+                    <div className="card banner-3">Paul Dano - O Charada</div>
+                </div>
+            </div>
             <Footer />
         </>
     )
