@@ -37,51 +37,51 @@
 
 /* Imagens de Cada Card */
 .photo-1 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BOTBjNGE5ZmYtZTVjZS00MWZjLWIyMzMtZDMwODQ4OGI2ZGE2XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+    background-image: url('imgs/mainPhotos/posterBatman-1.png');
 }
 
 .photo-2 {
-    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/21/10/15/18/09/5653084.jpg');
+    background-image: url('imgs/mainPhotos/posterBatman-2.png');
 }
 
 .photo-3 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BMmFhNzBhYjItZjU3Ni00ZTY1LTg5ZGEtNGNiMmEyMzNjY2E0XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+    background-image: url('imgs/mainPhotos/BruceWayne.png');
 }
 
 .photo-4 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BODMyNDJhM2QtMDU2MS00NjA5LThiNDYtNWVkNjQ4NDZiNTQyXkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+    background-image: url('imgs/mainPhotos/MulherGato.png');
 }
 
 .photo-5 {
-    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5093662.jpg');
+    background-image: url('imgs/mainPhotos/OCharada.png');
 }
 
 .photo-6 {
-    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1918976.jpg');
+    background-image: url('imgs/mainPhotos/MulherGatoBatman.png');
 }
 
 .photo-7 {
-    background-image: url('https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1839411.jpg');
+    background-image: url('imgs/mainPhotos/BatmanBatmovel.png');
 }
 
 .photo-8 {
-    background-image: url('https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1947058.jpg');
+    background-image: url('imgs/mainPhotos/AlfredPennyworth.png');
 }
 
 .photo-9 {
-    background-image: url('https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1933017.jpg');
+    background-image: url('imgs/mainPhotos/CarmineFalcone.png');
 }
 
 .photo-10 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BMGRiODdkNjQtZDZiYy00ZTVhLThlZTEtNjEyNGRkZTRjNThkXkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+    background-image: url('imgs/mainPhotos/Pinguim.png');
 }
 
 .photo-11 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BY2QzYmQ2M2UtYWI3OC00ZjE0LWI4MWUtZmZiN2E2ODE4N2I2XkEyXkFqcGc@._V1_QL75_UX820_.jpg');
+    background-image: url('imgs/mainPhotos/Batmovel.png');
 }
 
 .photo-12 {
-    background-image: url('https://m.media-amazon.com/images/M/MV5BMjc5OTBhNGUtNTQ4NS00YjI5LTk2MDMtMTM3NjkxNGI4YzQ2XkEyXkFqcGc@._V1_QL75_UX808_.jpg');
+    background-image: url('imgs/mainPhotos/NoMoreLies.png');
 }
 
 /* Responsividade */
