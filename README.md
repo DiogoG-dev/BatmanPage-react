@@ -49,7 +49,9 @@ Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
 
 4. Inicie o servidor de desenvolvimento:
    ```bash
-   npm start
+   npm run dev
+   
+Depois, acesse http://localhost:5173 no seu navegador.
 
 ## 🤝 Como Contribuir
 Se você deseja contribuir para o desenvolvimento deste projeto, fique à vontade para fazer um fork e enviar pull requests.
