@@ -1,12 +1,60 @@
-# React + Vite
+# 🦇🎬 BatmanPage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BatmanPage** é um projeto desenvolvido para a venda de ingressos do filme *The Batman* (2022). O objetivo principal deste projeto é aplicar conhecimentos em **React** para refatorar uma página interativa e funcional. Este SPA é composto por 4 rotas principais e foi desenvolvida para fornecer uma apresentação do filme, com funcionalidades simples e design responsivo.
 
-Currently, two official plugins are available:
+[Visualize a página aqui!](https://diogog-dev.github.io/BatmanPage/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Descrição
 
-## Expanding the ESLint configuration
+O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. Na sua versão anterior foi desenvolvida utilizando HTML e CSS puro, para está nova versão atualizamos o conceito para o modelo SPA com React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### As rotas principais do projeto são:
+
+1. **Home**: Tela inicial que apresenta o filme, com trailer, sinopse resumida e destaque para os personagens principais.
+2. **Fotos**: Galeria de imagens do filme, com os personagens e cenas mais marcantes.
+3. **Comentários**: Seção para exibir comentários e críticas sobre o filme, incluindo opiniões construtivas, elogios e críticas.
+4. **Contatos**: Página de contatos com os principais meios de comunicação para o desenvolvedor do site, como Portfólio, GitHub, LinkedIn e E-mail.
+
+## 🛠️ Funcionalidades
+
+- Exibição de um **trailer** do filme na Home.
+- Apresentação de **personagens principais** do filme.
+- **Galeria de fotos** com cenas e personagens.
+- **Comentários** sobre o filme, coletando feedbacks e críticas.
+- **Seção de contatos** com links para perfis profissionais e e-mail.
+
+## 💻 Tecnologias Utilizadas
+
+- **React**
+- **Style Components**
+- **Responsividade**: Layout otimizado para visualização em diferentes dispositivos (desktop, tablet, celular).
+
+## ⬇️ Instalação
+
+Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
+
+### Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/diogog-dev/BatmanPage-react.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd BatmanPage
+3. Abra o arquivo index.html em seu navegador de preferência:
+   ```bash
+   open index.html  # no macOS
+   start index.html  # no Windows
+   xdg-open index.html  # no Linux
+
+## 🤝 Como Contribuir
+Se você deseja contribuir para o desenvolvimento deste projeto, fique à vontade para fazer um fork e enviar pull requests.
+
+1. Faça um fork deste repositório.
+2. Crie uma nova branch para suas alterações (git checkout -b feature/nova-feature).
+3. Faça commit das suas alterações (git commit -am 'Adiciona nova funcionalidade').
+4. Envie para sua branch (git push origin feature/nova-feature).
+5. Abra um pull request detalhando as mudanças feitas.
+
+## 📜 Licença
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais detalhes.
