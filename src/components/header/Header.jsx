@@ -30,7 +30,7 @@ export function Header() {
 
     return (
         <header>
-            <img onClick={() => toHome('home')} className="logo" src='/imgs/logo/logoBatman.png' alt="logoBatman" />
+            <img onClick={() => toHome('home')} className="logo" src='imgs/logo/logoBatman.png' alt="logoBatman" />
             <nav className="large-nav">
                 <ul>
                     <li onClick={() => toHome('home')}>Home</li>
