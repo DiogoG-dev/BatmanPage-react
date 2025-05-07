@@ -1,4 +1,4 @@
-# 🦇🎬 BatmanPage
+# 🦇🎬 BatmanPage React
 
 **BatmanPage** é um projeto desenvolvido para a venda de ingressos do filme *The Batman* (2022). O objetivo principal deste projeto é aplicar conhecimentos em **React** para refatorar uma página interativa e funcional. Este SPA é composto por 4 rotas principais e foi desenvolvida para fornecer uma apresentação do filme, com funcionalidades simples e design responsivo.
 
@@ -6,7 +6,7 @@
 
 ## 📝 Descrição
 
-O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. Na sua versão anterior foi desenvolvida utilizando HTML e CSS puro, para está nova versão atualizamos o conceito para o modelo SPA com React
+O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. A versão anterior foi desenvolvida com HTML e CSS puro. Nesta nova versão, o conceito foi atualizado para um modelo SPA utilizando React, oferecendo maior interatividade e organização de código.
 
 ### As rotas principais do projeto são:
 
@@ -26,7 +26,7 @@ O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o fil
 ## 💻 Tecnologias Utilizadas
 
 - **React**
-- **Style Components**
+- **Styled Components**
 - **Responsividade**: Layout otimizado para visualização em diferentes dispositivos (desktop, tablet, celular).
 
 ## ⬇️ Instalação
@@ -38,14 +38,18 @@ Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/diogog-dev/BatmanPage-react.git
-2. Navegue até o diretório do projeto:
+
+2. Navegue até o diretório:
    ```bash
-   cd BatmanPage
-3. Abra o arquivo index.html em seu navegador de preferência:
+   cd BatmanPage-react
+
+3. Instale as dependências:
    ```bash
-   open index.html  # no macOS
-   start index.html  # no Windows
-   xdg-open index.html  # no Linux
+   npm install
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
 
 ## 🤝 Como Contribuir
 Se você deseja contribuir para o desenvolvimento deste projeto, fique à vontade para fazer um fork e enviar pull requests.
