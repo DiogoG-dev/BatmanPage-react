@@ -37,51 +37,51 @@
 
 /* Imagens de Cada Card */
 .photo-1 {
-    background-image: url('imgs/mainPhotos/posterBatman-1.png');
+    background-image: url('/imgs/mainPhotos/posterBatman-1.png');
 }
 
 .photo-2 {
-    background-image: url('imgs/mainPhotos/posterBatman-2.png');
+    background-image: url('/imgs/mainPhotos/posterBatman-2.png');
 }
 
 .photo-3 {
-    background-image: url('imgs/mainPhotos/BruceWayne.png');
+    background-image: url('/imgs/mainPhotos/BruceWayne.png');
 }
 
 .photo-4 {
-    background-image: url('imgs/mainPhotos/MulherGato.png');
+    background-image: url('/imgs/mainPhotos/MulherGato.png');
 }
 
 .photo-5 {
-    background-image: url('imgs/mainPhotos/OCharada.png');
+    background-image: url('/imgs/mainPhotos/OCharada.png');
 }
 
 .photo-6 {
-    background-image: url('imgs/mainPhotos/MulherGatoBatman.png');
+    background-image: url('/imgs/mainPhotos/MulherGatoBatman.png');
 }
 
 .photo-7 {
-    background-image: url('imgs/mainPhotos/BatmanBatmovel.png');
+    background-image: url('/imgs/mainPhotos/BatmanBatmovel.png');
 }
 
 .photo-8 {
-    background-image: url('imgs/mainPhotos/AlfredPennyworth.png');
+    background-image: url('/imgs/mainPhotos/AlfredPennyworth.png');
 }
 
 .photo-9 {
-    background-image: url('imgs/mainPhotos/CarmineFalcone.png');
+    background-image: url('/imgs/mainPhotos/CarmineFalcone.png');
 }
 
 .photo-10 {
-    background-image: url('imgs/mainPhotos/Pinguim.png');
+    background-image: url('/imgs/mainPhotos/Pinguim.png');
 }
 
 .photo-11 {
-    background-image: url('imgs/mainPhotos/Batmovel.png');
+    background-image: url('/imgs/mainPhotos/Batmovel.png');
 }
 
 .photo-12 {
-    background-image: url('imgs/mainPhotos/NoMoreLies.png');
+    background-image: url('/imgs/mainPhotos/NoMoreLies.png');
 }
 
 /* Responsividade */
