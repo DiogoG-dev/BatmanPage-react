@@ -2,7 +2,7 @@
 
 **BatmanPage** é um projeto desenvolvido para a venda de ingressos do filme *The Batman* (2022). O objetivo principal deste projeto é aplicar conhecimentos em **React** para refatorar uma página interativa e funcional. Este SPA é composto por 4 rotas principais e foi desenvolvida para fornecer uma apresentação do filme, com funcionalidades simples e design responsivo.
 
-[Visualize a página aqui!](https://diogog-dev.github.io/BatmanPage/)
+[Visualize a página aqui!](https://diogog-dev.github.io/BatmanPage-react/)
 
 ## 📝 Descrição
 
