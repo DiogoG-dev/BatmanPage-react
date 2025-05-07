@@ -6,7 +6,7 @@
 
 ## 📝 Descrição
 
-O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. A versão anterior foi desenvolvida com HTML e CSS puro. Nesta nova versão, o conceito foi atualizado para um modelo SPA utilizando React, oferecendo maior interatividade e organização de código.
+O **BatmanPage** foi uma página desenvolvida com a finalidade de promover o filme *The Batman* (2022) e desenvolver um design que facilite a compra de ingressos. A [versão anterior](https://github.com/DiogoG-dev/BatmanPage) foi desenvolvida com HTML e CSS puro. Nesta nova versão, o conceito foi atualizado para um modelo SPA utilizando React, oferecendo maior interatividade e organização de código.
 
 ### As rotas principais do projeto são:
 
